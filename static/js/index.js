@@ -133,7 +133,7 @@ async function setupOverlayCarousel() {
     slidesToShow: 3,
     loop: true,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     // navigationSwipe: false,
     autoplaySpeed: 3000,
   }
@@ -345,3 +345,29 @@ async function loadOverlayCarousel() {
     loadOverlay(overlay);
   };
 }
+
+
+// Initialize the Abstraction Carousel
+var carousel = bulmaCarousel.attach('#abstraction-carousel', {
+    slidesToScroll: 1,
+    slidesToShow: 1,
+    loop: true,
+    infinite: true,
+    autoplay: false, // Important: False so users can use the slider
+    pagination: true,
+});
+
+// Initialize the Abstraction Carousel
+var carousel = bulmaCarousel.attach('#results-carousel', {
+    slidesToScroll: 1,
+    slidesToShow: 1,
+    loop: true,
+    infinite: true,
+    autoplay: false, // Important: False so users can use the slider
+    pagination: true,
+});
+
+// Calculate heights when it loads so it doesn't look squashed
+carousel[0].on('show', function() {
+    console.log('Abstraction carousel shown');
+});
