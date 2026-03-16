@@ -2315,14 +2315,14 @@ var defaultOptions = {
 
   pagination: true,
 
-  loop: false,
+  loop: true,
   infinite: false,
 
   effect: 'translate',
   duration: 300,
   timing: 'ease',
 
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 3000,
   pauseOnHover: true,
   breakpoints: [{
