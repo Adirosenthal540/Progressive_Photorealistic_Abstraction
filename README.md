@@ -1,7 +1,7 @@
 # Progressive Photorealistic Simplification
 
 <p align="center">
-<img src="./images/teaser4.png" width="800px"/>
+<img src="./website_images/teaser4.png" width="800px"/>
 </p>
 
 #### Adi Rosenthal, Dana Berman, Ariel Shamir, Yedid Hoshen
