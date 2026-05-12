@@ -14,7 +14,7 @@ To improve efficiency, we further distill this process into an image-to-video ge
 More broadly, our work suggests that simplification through structured content removal can serve as a practical mechanism for guiding visual interpretation within the photorealistic domain, complementing traditional abstraction methods.
 
 
-<a href=""><img src="https://img.shields.io/badge/arXiv-TODO-b31b1b.svg"></a>
+<a href=""><img src="https://img.shields.io/badge/arXiv-2605.10409-b31b1b.svg"></a>
 <a href="https://Adirosenthal540.github.io/Progressive_Photorealistic_Simplification/"><img src="https://img.shields.io/static/v1?label=Project&message=Website&color=red" height=20.5></a> 
 
 
